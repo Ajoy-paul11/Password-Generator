@@ -38,18 +38,18 @@ function App() {
         <h1 className=" text-center text-2xl lg:text-5xl font-semibold mb-4">
           Password Generator
         </h1>
-        <div className=" lg:w-2/3 h-auto lg:h-32 py-4 mx-6 lg:mx-auto bg-blue-300 flex flex-wrap justify-center gap-2 md:px-8 rounded-lg">
-          <div className=" w-full flex">
+        <div className=" lg:w-2/3 h-auto lg:h-44 py-4 mx-6 lg:mx-auto bg-blue-300 flex flex-wrap justify-center gap-2 md:px-8 rounded-lg">
+          <div className=" w-full flex flex-col p-4 space-y-4 md:flex-row md:space-y-0">
             <input
               type="text"
-              className="flex-grow px-2 text-2xl rounded-lg lg:text-3xl"
+              className="flex-grow px-2 py-2 text-2xl  lg:text-3xl outline-none rounded md:rounded-l-md "
               placeholder="Password"
               value={password}
               readOnly
               ref={copyRef}
             />
             <button
-              className=" bg-orange-500 text-white py-2 px-4 text-xl font-medium rounded-lg"
+              className=" bg-orange-500 text-white py-2 px-4 text-xl shadow-md rounded md:rounded-r-md  flex-grow-0 "
               onClick={copyToClipboard}
             >
               {" "}
