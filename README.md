@@ -10,6 +10,12 @@ This is a Random Password Generator application built using React and Vite. It a
 - Responsive design using Tailwind CSS.
 
 
+## Technologies Used
+
+- **React**: A JavaScript library for building user interfaces.
+- **Vite**: A modern, fast build tool for JavaScript and CSS.
+- **Tailwind CSS**: A utility-first CSS framework for rapidly building custom designs.
+
 ## Getting Started
 
 To get a local copy up and running, follow these simple steps.
